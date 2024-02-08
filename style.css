@@ -1,0 +1,33 @@
+.page {
+    height: calc(100vh - 32px);
+    width: 100vw;
+    box-sizing: border-box;
+    position: absolute;
+    transition: transform 0.5s ease-in;
+    will-change: transform;
+  }
+  
+  #page-1 {
+    background-color: aliceblue;
+  }
+  
+  #page-2 {
+    background-color: blanchedalmond;
+  }
+  
+  #page-3 {
+    background-color: cornflowerblue;
+  }
+  
+  #page-wrapper {
+    position: relative;
+  }
+  
+  .hidden {
+    /* move the element to the left by 100% of its width */
+    transform: translateX(-100%);
+  }
+  
+  .show {
+    transform: translateX(0)
+  }
