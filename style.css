@@ -2,6 +2,7 @@
     height: calc(100vh - 32px);
     width: 100vw;
     box-sizing: border-box;
+    border-top-left-radius: 5%;
     position: absolute;
     transition: transform 0.5s ease-in;
     will-change: transform;
@@ -9,14 +10,14 @@
   
   #page-1 {
     background-color: aliceblue;
-  }
-  
+}
+    
   #page-2 {
     background-color: blanchedalmond;
   }
   
   #page-3 {
-    background-color: cornflowerblue;
+    background-color: pink;
   }
   
   #page-wrapper {
@@ -31,3 +32,5 @@
   .show {
     transform: translateX(0)
   }
+
+  
